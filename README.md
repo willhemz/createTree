@@ -31,3 +31,5 @@
 ##### The css styling was done using bootstrap css
 
 ##### All codes written using React
+
+#### `To clone, use git clone <--file ssh-->. To transpile code, use (npm install) in terminal to download all dependencies used for the project`
