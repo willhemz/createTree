@@ -13,7 +13,7 @@ export const data = [
         name: 'Zuri Books',
         url: 'http://books.zuri.team/',
         id: 'books'
-    }
+    },
     {
         name: 'Python Books',
         url: 'https://books.zuri.team/python-for-beginners?ref_id=<Willhemz>',
