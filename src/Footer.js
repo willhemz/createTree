@@ -1,5 +1,4 @@
 import React from 'react'
-import {GiAfrica} from 'react-icons/gi'
 
 const Footer = () => {
   return <>

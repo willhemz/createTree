@@ -17,9 +17,7 @@ const Main = () => {
             }
         </section>
         <section className="col-10 my-0 mt-3 fs-4 mx-auto text-center">
-            <a href="#">
-                <SiSlack className='me-3 text-success'/>
-            </a>
+            <SiSlack className='me-3 text-success'/>
             <a href="https://github.com/willhemz/webtree">
                 <AiOutlineGithub className='text-dark fs-3' />
             </a>
