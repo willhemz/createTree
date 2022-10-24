@@ -11,7 +11,7 @@ const Main = () => {
                 data.map(item => {
                     const {name, url, id} = item
                     return <>
-                        <a className='border-0 text-center fw-bold fs-6 rounded-3 p-3 list-group-item list-group-item-secondary list-group-item-action my-3' id={id} key={id} href={url}>{name}</a>    
+                        <a className='border-0 text-center fw-bold fs-6 rounded-3 p-3 list-group-item list-group-item-secondary list-group-item-action my-2' id={id} key={id} href={url}>{name}</a>    
                     </>
                 })
             }
