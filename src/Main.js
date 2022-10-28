@@ -8,9 +8,9 @@ const Main = () => {
         <section className="col-10 my-0 mx-auto list-group">
             {
                 data.map((item, index) => {
-                    const {name, url, id} = item
+                    const {name, url, id, title} = item
                     return <>
-                        <a className='border-0 text-center fw-bold fs-6 rounded-3 p-3 list-group-item list-group-item-secondary list-group-item-action my-2' id={id} key={index} href={url}>{name}</a>    
+                        <a className='border-0 text-center fw-bold fs-6 rounded-3 p-3 list-group-item list-group-item-secondary list-group-item-action my-2' id={id} key={index} title={title} href={url}>{name}</a>    
                     </>
                 })
             }
