@@ -1,6 +1,6 @@
 export const data = [
     {
-        name: '@willhemzDev',
+        name: 'Twitter Link',
         url: 'https://twitter.com/willhemzDev?t=8lt4cARSXgkHPjbVimA-mQ&s=09',
         id: 'twitter-profile'
     },
