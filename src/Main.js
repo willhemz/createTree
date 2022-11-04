@@ -1,6 +1,7 @@
 import React from 'react'
 import { data } from './data'
 import {AiOutlineGithub} from 'react-icons/ai'
+import {Link} from 'react-router-dom'
 
 const Main = () => {
   return <>
@@ -14,6 +15,7 @@ const Main = () => {
                     </>
                 })
             }
+            <Link id='contact' to='/contact' className='border-0 text-center fw-normal fs-6 rounded-3 p-3 list-group-item list-group-item-secondary list-group-item-action my-2'>Contact Me</Link>
         </section>
         <section className="col-10 my-3 fs-4 mx-auto text-center">
             <img src="./image/slack.svg" alt="slack" className='col-1 me-3' style={{width:'1.6rem'}} />
