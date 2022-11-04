@@ -8,6 +8,8 @@ Site link [ihemz-linktree](https://ihemz-linktree.netlify.app/)
 
 #### Main.js /
 
+#### Contact.js /
+
 #### Footer.js
 
 ### `Header`
@@ -24,7 +26,17 @@ Site link [ihemz-linktree](https://ihemz-linktree.netlify.app/)
 
 #### A data.js file containing an array of details required on the Main component was written and utilized in the Main component.
 
-#### React icons was used for the slack and github images below the buttons.
+#### A Link Tag was created in the Main.js to link to the contact form.
+
+#### A Contact Path was added to the App.js using Route tag.
+
+#### React Router Dom was used to switch from the home page **(Main.Js)** to the contact form **(Contact.js)**.
+
+#### React icons was used for the menu-bar and github icons.
+
+#### `Contact`
+
+This is the page containing the contact form. Bootstrap CSS was used for the styling and a bit of vanilla CSS for the large and small screen size scaling.
 
 ### `Footer`
 
