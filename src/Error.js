@@ -9,7 +9,7 @@ const Error = () => {
         <h2>We can't find that page</h2>
         <p>Sorry, the page you are looking for doesn't exist</p>
         <div className="buttons d-flex flex-column flex-sm-row">
-            <Link className='goBack-btn btn btn-light' to='/'><BiArrowBack /> Go back</Link>
+            <button className='goBack-btn btn btn-light'><BiArrowBack /> Go back</button>
             <Link to='/' className='goHome-btn btn btn-primary '>Take me home</Link>
         </div>
     </div>
