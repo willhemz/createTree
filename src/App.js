@@ -17,6 +17,9 @@ const App = () => {
         <Route path='/contact'>
           <Contact />
         </Route>
+        <Route path='*'>
+          <Error />
+        </Route>
       </Switch>
       <Footer />
     </div>
