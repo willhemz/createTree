@@ -9,9 +9,9 @@ import Contact from './Contact'
 const App = () => {
   return <Router>
     <div className='container-fluid mx-0 my-0'>
-      <Header />
       <Switch>
         <Route exact path='/'>
+          <Header />
           <Main />
         </Route>
         <Route path='/contact'>
