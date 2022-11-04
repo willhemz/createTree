@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
                 <div className="message-section mb-3">
                     <label htmlFor="message" className='form-label'>Message</label>
-                    <textarea name="message" id="message" className='form-control' rows="3" style={{ resize: 'none' }}></textarea>
+                    <textarea name="message" id="message" placeholder="Send me a message and I'll reply you as soon as possible..." className='form-control' rows="3" required='required' style={{ resize: 'none' }}></textarea>
                 </div>
                 <div className="form-check mb-5">
                     <input className='form-check-input' type="checkbox" id="checkbox" />
