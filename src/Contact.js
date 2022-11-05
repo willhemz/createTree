@@ -92,8 +92,8 @@ const Contact = () => {
                     <p className={`text-danger p-1 mt-1 d-${msgShow}`} style={{background:'rgba(255,0,0,0.2'}}>Field cannot be empty</p>
                 </div>
                 <div className="form-check mb-5">
-                    <input className='form-check-input' type="checkbox" id="checkbox" />
-                    <label htmlFor="checkbox" className='form-check-label'>You agree to providing your data to &#123;name&#125; who may contact you.</label>
+                    <input className='form-check-input' required='required' type="checkbox" id="checkbox" />
+                    <label htmlFor="checkbox" className='form-check-label'>You agree to providing your data to Williams Balogun who may contact you.</label>
                 </div>
                 <div className="submit-btn">
                     <button className='btn btn-primary w-100' type="submit" id='btn__submit'>Send Message</button>
