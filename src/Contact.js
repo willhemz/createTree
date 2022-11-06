@@ -89,7 +89,7 @@ const Contact = () => {
                 <div className="message-section mb-3">
                     <label htmlFor="message" className='form-label'>Message</label>
                     <textarea name="message" id="message" placeholder="Send me a message and I'll reply you as soon as possible..." className='form-control' onInput={handleChange} rows="3" style={{ resize: 'none' }} ref={msgContainer}></textarea>
-                    <p className={`text-danger p-1 mt-1 d-${msgShow}`} >Field cannot be empty</p>
+                    <p className={`text-danger p-1 mt-1 d-${msgShow}`} >Please enter a message</p>
                 </div>
                 <div className="form-check mb-5">
                     <input className='form-check-input' required='required' type="checkbox" id="checkbox" />
